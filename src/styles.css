@@ -1,0 +1,53 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  padding: 20px;
+  background-color: #f8f9fa;
+  color: #222;
+}
+
+h1, h3 {
+  color: #333;
+}
+
+label {
+  margin-right: 15px;
+  display: inline-block;
+}
+
+select, input[type="date"] {
+  margin-left: 5px;
+  padding: 4px;
+  font-size: 14px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 600px;
+  margin-top: 10px;
+  background-color: #fff;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+button {
+  margin-top: 12px;
+  padding: 6px 16px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
